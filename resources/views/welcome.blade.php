@@ -15,12 +15,18 @@
 
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <style>
+            nav{
+                background-color: black;
+            }
+        </style>
     </head>
     <body>
 
     <nav>
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Faculty Notice</a>
+            <a style="    padding-left: 15px;" href="#" class="brand-logo">Faculty Notice</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="#">Home</a></li>
 
@@ -64,7 +70,7 @@
                 <textarea name="body" id="body" class="materialize-textarea"></textarea>
             </div>
 
-            <button class="btn waves-effect waves-light" type="submit" >Submit
+            <button style="background: #5C0605" class="btn waves-effect waves-light" type="submit" >Submit
 
             </button>
 
