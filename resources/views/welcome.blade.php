@@ -31,7 +31,9 @@
     <br><br><br>
 
     <div class="container">
-        <form action="">
+        <form action="{{ url('store') }}" method="post">
+
+            {{ csrf_field() }}
 
             <div class="input-field">
                 <select name="faculty_id" id="">
@@ -62,7 +64,7 @@
                 <textarea name="body" id="body" class="materialize-textarea"></textarea>
             </div>
 
-            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <button class="btn waves-effect waves-light" type="submit" >Submit
 
             </button>
 
