@@ -16,4 +16,11 @@ class NoticeController extends Controller
 
         return redirect()->back();
     }
+
+    public function get($depId)
+    {
+        $notice = Notice::where('department_id','=',$depId)->get();
+
+        return $notice;
+    }
 }
